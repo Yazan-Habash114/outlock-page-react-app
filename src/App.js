@@ -1,6 +1,11 @@
+import React from "react";
+import LeftSide from "./Components/LeftSide/LeftSide";
+
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <LeftSide />
+    </div>
   );
 }
 
