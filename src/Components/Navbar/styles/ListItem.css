@@ -1,0 +1,15 @@
+.nav-item{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #005A9E;
+}
+.nav-item > * {
+    margin: 5px;
+}
+a{
+    margin-right: 70px;
+}
+.image{
+    margin-right: 10px;
+}
