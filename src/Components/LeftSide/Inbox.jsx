@@ -24,41 +24,19 @@ const Title = styled.h2`
     color: #323130;
     font-size: 17px;
     margin-left: 17px;
-`
-
-const Icon = styled.p`
-    color: #605E5C;
-    /* width: 17px; */
-    /* height: 17px; */
-    /* border-radius: 50%; */
-`
-
-const Star = styled.p`
-    margin-left: 15px;
-    cursor: pointer;
-`
-
-const Filter = styled.p`
-    color: #0178D4;
-    cursor: pointer;
+    margin-right: 15px;
 `
 
 const Inbox = () => {
     return (
         <Container>
             <Left>
-                <Icon>
-                    <FontAwesomeIcon icon={faCircleCheck} />
-                </Icon>
+                <FontAwesomeIcon icon={faCircleCheck} color='#605E5C' />
                 <Title>Inbox</Title>
-                <Star>
-                    <FontAwesomeIcon icon={faStar} color='#0178D4' />
-                </Star>
+                <FontAwesomeIcon icon={faStar} color='#0178D4' />
             </Left>
             <Right>
-                <Filter>
-                    Filter <FontAwesomeIcon icon={faAngleDown} />
-                </Filter>
+                Filter <FontAwesomeIcon icon={faAngleDown} color='#0178D4' />
             </Right>
         </Container>
     )
