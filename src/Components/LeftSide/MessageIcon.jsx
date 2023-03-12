@@ -9,7 +9,7 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 18px;
+    /* margin: 18px; */
 `
 
 const Char = styled.p`
