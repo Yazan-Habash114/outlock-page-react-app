@@ -9,7 +9,6 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: 18px; */
 `
 
 const Char = styled.p`
