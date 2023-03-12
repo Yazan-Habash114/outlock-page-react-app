@@ -1,0 +1,11 @@
+.nav-ul{
+    list-style: none;
+    display: flex;
+}
+
+nav{
+    padding-left: 75px;
+}
+li:last-child {
+    color:#C8C6C4 !important;
+}
