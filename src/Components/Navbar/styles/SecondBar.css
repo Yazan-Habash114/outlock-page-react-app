@@ -6,11 +6,15 @@
     background-color: #F3F2F1;
 }
 .sec-flex > *{
-    margin: 16px;
+    margin: 15px;
 }
 .new-massage-btn{
     background-color: #0178D4   ;
     border: none;
     color: #FFFFFF;
-    padding: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 104px;
+    height: 31px;
 }
