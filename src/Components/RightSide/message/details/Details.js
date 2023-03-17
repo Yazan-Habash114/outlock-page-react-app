@@ -8,7 +8,7 @@ function Details() {
         <p className='row1-style-p style-p1'> no_reply@loremipsum.com </p>
         <p className='row1-style-p style-p2'> Thu 6/18/2020 4:49 PM</p>
         <div className='details-style'>
-            <p className='row1-style-p style-p2'> To: </p>
+            <p className='row1-style-p style-p2'> <strong>To:</strong></p>
             <p className='row1-style-p style-p2'> You: </p>
         </div>
     </div>

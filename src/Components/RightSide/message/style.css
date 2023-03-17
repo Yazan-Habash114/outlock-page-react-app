@@ -1,7 +1,6 @@
 .message-style {
     background-color: white;
     display: flex;
-    border: 1px solid blue;
     height: 512px;
 }
 
