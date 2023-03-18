@@ -1,0 +1,16 @@
+.nav-first-div {
+    width: 60%;
+    display: flex;
+    margin-right:20px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 27px;
+}
+
+span {
+    padding-left: 20px;
+}
+
+span:first-child {
+    padding-left: 0px;
+}

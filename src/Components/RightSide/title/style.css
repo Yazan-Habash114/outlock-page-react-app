@@ -1,0 +1,7 @@
+.title-style {
+    background-color: RGB(250, 249, 248);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
