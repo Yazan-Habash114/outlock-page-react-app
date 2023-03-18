@@ -1,12 +1,12 @@
 import React from 'react'
 import Title from './title/Title'
 import Message from './message/Message'
-import "./style.css"
+import styles from './style.module.css'
 
 
 const RightSide = () => {
     return (
-        <div className="right-side-style">
+        <div className=  {`${styles["right-side-style"]}`}>
             <Title />
             <Message />
         </div>
