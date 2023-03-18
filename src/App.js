@@ -16,9 +16,9 @@ const PageContent = styled.main`
 function App() {
   return (
     <Container>
-      <Navbar/>
+      <Navbar />
       <PageContent>
-        <Sidebar/>
+        <Sidebar />
         <LeftSide />
         <RightSide />
       </PageContent>

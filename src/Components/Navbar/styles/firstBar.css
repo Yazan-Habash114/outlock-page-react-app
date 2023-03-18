@@ -1,12 +1,12 @@
-.flex{
+.flex {
     width: 100%;
-    height:48px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #0178D4;
 }
-.flex >*
-{
+
+.flex>* {
     margin: 16px;
 }

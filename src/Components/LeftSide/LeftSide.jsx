@@ -9,6 +9,7 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     width: 351px;
+    margin: 0 5px;
 `
 
 const LeftSide = () => {
