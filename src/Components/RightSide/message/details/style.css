@@ -1,0 +1,22 @@
+.details-style {
+    display: flex;
+}
+
+.row1-style-p {
+    opacity: 1;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.style-p1 {
+    color: rgba(50,49,48,1);
+    font-size: 15px;
+}
+
+.style-p2 {
+    color: rgba(96,94,92,1);
+    font-size: 13px;
+    padding-right: 3px;
+}

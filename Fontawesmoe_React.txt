@@ -1,0 +1,18 @@
+# Install the core package
+npm i --save @fortawesome/fontawesome-svg-core
+
+# Free icons styles
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+npm i --save @fortawesome/react-fontawesome@latest
+
+
+Example:
+For adding Twitter icon with colour red and animation spin: Go to (https://fontawesome.com/search) and search for Twitter, click on the first icon then choose React, look at the icon attribute in green-text colour which is "fa-brands fa-twitter", we see that it exists in "fa-brands" so import the "free-brands-svg-icons" as following:
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+
+In component:
+<FontAwesomeIcon icon={faTwitter} color='red' spin />  /* see the attributes color & animation spin */

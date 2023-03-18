@@ -1,5 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleCheck, faStar } from '@fortawesome/free-regular-svg-icons'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 const Container = styled.div`
     width: 332px;
@@ -21,35 +24,19 @@ const Title = styled.h2`
     color: #323130;
     font-size: 17px;
     margin-left: 17px;
-`
-
-const Icon = styled.p`
-    color: #605E5C;
-    /* width: 17px; */
-    /* height: 17px; */
-    /* border-radius: 50%; */
-`
-
-const Star = styled.p`
-    /* width: 17px; */
-    /* height: 17px; */
-    margin-left: 15px;
-`
-
-const Filter = styled.p`
-    color: #0178D4;
+    margin-right: 15px;
 `
 
 const Inbox = () => {
     return (
         <Container>
             <Left>
-                <Icon>Icon</Icon>
+                <FontAwesomeIcon icon={faCircleCheck} color='#605E5C' />
                 <Title>Inbox</Title>
-                <Star>Star</Star>
+                <FontAwesomeIcon icon={faStar} color='#0178D4' />
             </Left>
             <Right>
-                <Filter>Filter</Filter>
+                Filter <FontAwesomeIcon icon={faAngleDown} color='#0178D4' />
             </Right>
         </Container>
     )

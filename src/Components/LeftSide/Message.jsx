@@ -1,6 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
+const MessageContainer = styled.div`
+    padding-top: 7px;
+`
+
 const MsgTitle = styled.h3`
     color: #323130;
     font-size: 16px;
@@ -12,14 +16,14 @@ const MsgText = styled.p`
     font-size: 16px;
 `
 
-const Message = ({ char, color }) => {
+const Message = () => {
     return (
-        <div>
+        <MessageContainer>
             <MsgTitle>Lorem Ipsum</MsgTitle>
             <MsgText>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusalo…
             </MsgText>
-        </div>
+        </MessageContainer>
     )
 }
 
