@@ -18,7 +18,7 @@ function App() {
     <Container>
       <Navbar />
       <PageContent>
-      <SidebarMenu/>
+        <SidebarMenu />
         <LeftSide />
         <RightSide />
       </PageContent>
