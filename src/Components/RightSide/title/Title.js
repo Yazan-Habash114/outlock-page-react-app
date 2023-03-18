@@ -1,9 +1,9 @@
 import React from 'react'
-import './style.css'
+import styles from'./style.module.css'
 
 function title() {
   return (
-    <div className='title-style'>
+    <div className={`${styles["title-style"]}`}>
       <p>Lorem Ipsum</p>
     </div>
   )

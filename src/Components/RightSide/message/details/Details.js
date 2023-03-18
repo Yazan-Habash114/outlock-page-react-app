@@ -1,16 +1,14 @@
 import React from 'react'
-import './style.css'
+import { data } from "./data";
+import DetailsItem from "./DetailsItem";
 
-function Details() {
+const Details = () => {
+
   return (
     <div>
-      <p className='row1-style-p style-p1'> Lorem Ipsum</p>
-      <p className='row1-style-p style-p1'> no_reply@loremipsum.com </p>
-      <p className='row1-style-p style-p2'> Thu 6/18/2020 4:49 PM</p>
-      <div className='details-style'>
-        <p className='row1-style-p style-p2'> <strong>To:</strong></p>
-        <p className='row1-style-p style-p2'> You: </p>
-      </div>
+      {data.map((item, index) => (
+            <DetailsItem {...item} key={index} />
+          ))}
     </div>
   )
 }
