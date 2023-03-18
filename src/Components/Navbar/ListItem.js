@@ -1,11 +1,13 @@
 import React from 'react'
-import "./styles/ListItem.css";
+import styles from"./styles/ListItem.module.css";
 import Icon from './Icon';
-const ListItem = (props) => {
+const ListItem = ({ title, undoColor }) => {
+  console.log(undoColor);
   return (
-    <a href='#f' className='nav-item'>
-      <Icon title={props.title} />
-      <p> {props.title}</p></a>
+    <a href='#f' className={`${styles["nav-item"]}`}>
+      <Icon title={title} />
+      <p className={`${styles[undoColor]}`}>{title}</p>
+    </a>
   )
 }
 export default ListItem;
