@@ -5,7 +5,7 @@ const ListItem = ({ title, undoColor }) => {
   console.log(undoColor);
   return (
     <a href='#f' className={`${styles["nav-item"]}`}>
-      <Icon title={title} />
+      <div className={styles.image}><Icon title={title} /></div>
       <p className={`${styles[undoColor]}`}>{title}</p>
     </a>
   )
