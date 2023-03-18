@@ -2,7 +2,7 @@ import React from "react";
 import LeftSide from "./Components/LeftSide/LeftSide";
 import RightSide from "./Components/RightSide/RightSide";
 import Navbar from "./Components/Navbar/Navbar";
-import Sidebar from "./Components/Sidebar/Sidebar";
+import SidebarMenu from "./Components/Sidebar/SidebarMenu";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -18,7 +18,7 @@ function App() {
     <Container>
       <Navbar />
       <PageContent>
-        <Sidebar />
+      <SidebarMenu/>
         <LeftSide />
         <RightSide />
       </PageContent>
