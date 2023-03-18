@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchBar from './SearchBar';
 import "./styles/firstBar.css";
-import Icon from  './Icon'
+import Icon from './Icon'
 const FirstBar = () => {
     return (
         <div className='flex'>

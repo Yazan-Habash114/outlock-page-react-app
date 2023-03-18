@@ -1,11 +1,14 @@
-.nav-ul{
+.nav-ul {
     list-style: none;
     display: flex;
+    align-items: center;
 }
-nav{
+
+nav {
     padding-left: 75px;
-    width:80%;
+    width: 80%;
 }
-li{
-   margin-right: 55px;
+
+li {
+    margin-right: 55px;
 }

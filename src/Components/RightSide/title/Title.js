@@ -4,7 +4,7 @@ import './style.css'
 function title() {
   return (
     <div className='title-style'>
-        <p>Lorem Ipsum</p>
+      <p>Lorem Ipsum</p>
     </div>
   )
 }

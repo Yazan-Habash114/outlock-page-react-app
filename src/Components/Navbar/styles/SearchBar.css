@@ -1,4 +1,4 @@
-.search-bar{
+.search-bar {
     width: 350px;
     height: 31px;
     display: flex;
@@ -6,10 +6,12 @@
     background-color: #C7E0F4;
     border-radius: 2px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.search-bar input{
+
+.search-bar input {
     background-color: transparent;
     color: #005A9E;
     outline: none;
@@ -18,6 +20,6 @@ a{
     margin-left: 1em;
 }
 
-.search-bar a{
+.search-bar a {
     margin-left: 1em;
 }
