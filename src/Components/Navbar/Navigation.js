@@ -1,5 +1,5 @@
 import ListItem from "./ListItem";
-import "./styles/Navigation.css";
+import styles from "./styles/Navigation.module.css";
 import Icon from "./Icon";
 const Navigation = (props) => {
     const myArray = [
@@ -34,14 +34,15 @@ const Navigation = (props) => {
         {
             number: 8,
             title: 'Undo',
+            color:'undo-link'
         }
     ]
     return (
         <nav>
-            <ul className="nav-ul" >
+            <ul className={`${styles["nav-ul"]}`} >
                 {
                     myArray.map((item) => {
-                        return <li key={item.number}><ListItem title={item.title} /></li>
+                        return <li key={item.number}><ListItem title={item.title} undoColor={item.color} /></li>
                     })
                 }
                 <li><a href="kk"><Icon title="More" /></a></li>

@@ -4,7 +4,9 @@
     font-size: 14px;
     color: #005A9E;
 }
-
 .image {
-    margin-right: 10px;
+    margin-right: 15px;
+}
+.undo-link {
+    color: grey;
 }
