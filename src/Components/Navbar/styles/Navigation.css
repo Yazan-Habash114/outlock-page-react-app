@@ -2,10 +2,10 @@
     list-style: none;
     display: flex;
 }
-
 nav{
     padding-left: 75px;
+    width:80%;
 }
-li:last-child {
-    color:#C8C6C4 !important;
+li{
+   margin-right: 55px;
 }
